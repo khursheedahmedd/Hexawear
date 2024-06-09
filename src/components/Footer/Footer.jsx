@@ -119,7 +119,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <h1 className="text-center  text-red-950 ">
+      <h1 className="text-center  text-red-950">
         Developed by <a className="text-indigo-800" href="https://khursheeds-portfolio.vercel.app" target="_blank">Khursheed Ahmed</a>{" "}
       </h1>
     </div>
