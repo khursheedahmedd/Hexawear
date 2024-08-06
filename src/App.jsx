@@ -10,6 +10,7 @@ import Subscribe from "./components/Subscribe/Subscribe";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Footer from "./components/Footer/Footer";
 import Popup from "./components/Popup/Popup";
+import EmptyCart from "./components/Cart/EmptyCart";
 
 const App = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
@@ -34,6 +35,7 @@ const App = () => {
       <Products />
       <TopProducts handleOrderPopup={handleOrderPopup} />
       <Banner />
+      {/* <EmptyCart /> */}
       {/* <Subscribe />
       <Products /> */}
       <Testimonials />

@@ -4,6 +4,7 @@ import Img2 from "../../assets/women/women2.jpg";
 import Img3 from "../../assets/women/women3.jpg";
 import Img4 from "../../assets/women/women4.jpg";
 import { FaStar } from "react-icons/fa6";
+// import { useNavigate } from "react-router-dom";
 
 const ProductsData = [
   {
@@ -46,9 +47,63 @@ const ProductsData = [
     color: "Pink",
     aosDelay: "800",
   },
+  // {
+  //   id: 6,
+  //   img: Img1,
+  //   title: "Women Ethnic",
+  //   rating: 5.0,
+  //   color: "white",
+  //   aosDelay: "0",
+  // },
+  // {
+  //   id: 7,
+  //   img: Img2,
+  //   title: "Women western",
+  //   rating: 4.5,
+  //   color: "Red",
+  //   aosDelay: "200",
+  // },
+  // {
+  //   id: 8,
+  //   img: Img3,
+  //   title: "Goggles",
+  //   rating: 4.7,
+  //   color: "brown",
+  //   aosDelay: "400",
+  // },
+  // {
+  //   id: 9,
+  //   img: Img1,
+  //   title: "Women Ethnic",
+  //   rating: 5.0,
+  //   color: "white",
+  //   aosDelay: "0",
+  // },
+  // {
+  //   id: 10,
+  //   img: Img2,
+  //   title: "Women western",
+  //   rating: 4.5,
+  //   color: "Red",
+  //   aosDelay: "200",
+  // },
+  // {
+  //   id: 11,
+  //   img: Img3,
+  //   title: "Goggles",
+  //   rating: 4.7,
+  //   color: "brown",
+  //   aosDelay: "400",
+  // },
 ];
 
 const Products = () => {
+
+  // const navigate = useNavigate();
+
+  // const NavigatToAll = () => {
+  //   navigate('/AllProducts')
+  // }
   return (
     <div className="mt-14 mb-12">
       <div className="container">
@@ -94,7 +149,7 @@ const Products = () => {
           </div>
           {/* view all button */}
           <div className="flex justify-center">
-            <button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md">
+            <button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md" >
               View All Button
             </button>
           </div>
